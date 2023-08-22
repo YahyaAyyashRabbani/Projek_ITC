@@ -1,0 +1,58 @@
+.navbar{
+    height: 100%;
+    text-align: center;
+    background-color: rgb(93, 110, 34);
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+#subtitle{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10;
+}
+#list-navbar{
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+}
+.list{
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+    background-color: gold;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+article{
+    border: rgb(128, 79, 0) 2px solid;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 12px;
+}
+.image-card{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 30%;
+}
+p {
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+    .list-navbar{
+        display :flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
